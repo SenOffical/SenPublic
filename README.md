@@ -20,17 +20,18 @@
 > 欢迎来到 Sen ✨，我们将逐步开放更多名额~，出于项目性质，请勿大肆宣传
 
 
+
 ## 重要提示
 
-| 链接 | 状态 |
+| 状态 | 链接 |
 |------|------|
-| https://t.me/Sesame_TK_Channel | ❌ 源频道已被污染 |
-| https://t.me/fansirsqi_xposed_sesame | ❌ 源群组已被污染 |
-| https://t.me/forest_xposed | ❌ 假冒者 |
-| https://t.me/fansirsqi | ❌ 不知道哪来的骗子改我以前的名字开频道，注意被骗 |
-| https://t.me/BysevenOffical | ❌ 同上，应该是同一人 |
-| https://t.me/ForestXposed_Channel | ✅ 官方 Forest 频道（欢迎订阅） |
-| https://t.me/byseven_sen | ✅ 转生 Sen 频道（欢迎订阅） |
+| ❌ 源频道已被污染 | https://t.me/Sesame_TK_Channel |
+| ❌ 源群组已被污染 | https://t.me/fansirsqi_xposed_sesame |
+| ❌ 假冒者 | https://t.me/forest_xposed |
+| ❌ 不知道哪来的骗子改我以前的名字开频道，注意被骗 | https://t.me/fansirsqi |
+| ❌ 同上，应该是同一人 | https://t.me/BysevenOffical |
+| ✅ 官方 Forest 频道（欢迎订阅） | https://t.me/ForestXposed_Channel |
+| ✅ 转生 Sen 频道（欢迎订阅） | https://t.me/byseven_sen |
 
 
 ## 仍然保持免费，倒卖司马，如果程序被逆向，我们随时停止更新
