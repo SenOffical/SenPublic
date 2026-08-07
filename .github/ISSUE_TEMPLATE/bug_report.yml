@@ -30,20 +30,11 @@ body:
           required: true
 
   - type: input
-    id: contact
-    attributes:
-      label: 📬 联系方式
-      description: 如果我们需要更多信息，如何联系您？
-      placeholder: 例如 email@example.com
-    validations:
-      required: false
-
-  - type: input
     id: version
     attributes:
       label: 📦 版本
       description: 请填写您正在运行的软件版本号
-      placeholder: 例如 v1.2.3 或 1.0.2
+      placeholder: 例如 26.08.03 或 26.08.04
     validations:
       required: true
 
@@ -92,11 +83,3 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: 📋 行为准则
-      description: 提交此问题即表示您同意遵守我们的[行为准则](https://example.com)。
-      options:
-        - label: 我同意遵守本项目的《行为准则》
-          required: true
