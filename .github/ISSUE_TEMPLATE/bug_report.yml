@@ -1,8 +1,8 @@
-name: Bug Report
-description: File a bug report.
+name: "🐛 Bug 报告"
+description: "提交一个你遇到的问题。"
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+labels: ["bug"]
+projects: ["SenOffical/SenPublic"]
 assignees:
   - octocat
 type: bug
@@ -10,63 +10,93 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        🙏 感谢您花时间填写这份 Bug 报告！
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ 例行检查
+      description: 请在提交前逐项确认以下内容
+      options:
+        - label: 我已确认目前没有类似 issue
+          required: true
+        - label: 我已确认我已升级到最新版本
+          required: true
+        - label: 我已完整查看过项目 README，尤其是常见问题部分
+          required: true
+        - label: 我理解并愿意跟进此 issue，协助测试和提供反馈
+          required: true
+        - label: 我理解并认可上述内容，并理解项目维护者精力有限，**不遵循规则的 issue 可能会被无视或直接关闭**
+          required: true
+
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: 📬 联系方式
+      description: 如果我们需要更多信息，如何联系您？
+      placeholder: 例如 email@example.com
     validations:
       required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
+
+  - type: input
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      label: 📦 版本
+      description: 请填写您正在运行的软件版本号
+      placeholder: 例如 v1.2.3 或 1.0.2
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+
+  - type: textarea
+    id: problem-description
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: 📝 问题描述
+      description: 请清晰、简洁地描述您遇到的问题
+      placeholder: 描述您遇到了什么异常
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: 🔁 复现步骤
+      description: 请提供能够复现该问题的详细步骤
+      placeholder: |
+        1. 打开某页面
+        2. 点击某按钮
+        3. 出现错误信息
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: 🎯 预期结果
+      description: 您期望看到什么结果？
+      placeholder: 正常情况下应该…
+    validations:
+      required: true
+
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: 📜 相关日志输出
+      description: 请复制并粘贴任何相关日志输出。内容将自动格式化为代码，无需添加反引号。
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+
   - type: upload
     id: screenshots
     attributes:
-      label: Upload screenshots
-      description: If applicable, add screenshots to help explain your problem.
+      label: 🖼️ 上传截图
+      description: 如果适用，请添加截图以帮助解释您的问题。
     validations:
       required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📋 行为准则
+      description: 提交此问题即表示您同意遵守我们的[行为准则](https://example.com)。
+      options:
+        - label: 我同意遵守本项目的《行为准则》
+          required: true
