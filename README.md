@@ -17,6 +17,8 @@
 </p>
 
 > [!Important]
+> 我们来自 [Sesame-TK](https://github.com/SenOffical/Sesame-TK) 相信你也一直在坚持
+> 
 > 欢迎来到 Sen ✨，我们将逐步开放更多名额~，出于项目性质，请勿大肆宣传
 
 ---
