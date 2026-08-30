@@ -39,7 +39,7 @@
     },
     {
       "name": "acooler15",
-      "gtihub": "acooler15"
+      "github": "acooler15"
     }
   ],
   "libraries": [
@@ -48,6 +48,18 @@
       "author": "Yukonga",
       "license": "Apache-2.0",
       "url": "https://github.com/Yukonga/Miuix"
+    },
+    {
+      "name": "miuix-blur / miuix-nav",
+      "author": "compose-miuix-ui contributors",
+      "license": "Apache-2.0",
+      "url": "https://github.com/YuKongA/miuix"
+    },
+    {
+      "name": "AndroidLiquidGlass (liquid 组件)",
+      "author": "Kyant0 & compose-miuix-ui contributors",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Kyant0/AndroidLiquidGlass"
     },
     {
       "name": "Shizuku",
@@ -76,20 +88,8 @@
     {
       "name": "Logback Android",
       "author": "Tony19",
-      "license": "LGPL-2.1 / EPL-1.0",
+      "license": "EPL-1.0（选用）/ LGPL-2.1",
       "url": "https://github.com/tony19/logback-android"
-    },
-    {
-      "name": "InstallerX-Revived",
-      "author": "wxxsfxyzm",
-      "license": "GPL-3.0",
-      "url": "https://github.com/wxxsfxyzm/InstallerX-Revived"
-    },
-    {
-      "name": "LSPosed",
-      "author": "LSPosed",
-      "license": "GPL-3.0",
-      "url": "https://github.com/LSPosed/LSPosed"
     },
     {
       "name": "libxposed API",
@@ -102,12 +102,6 @@
       "author": "libxposed",
       "license": "Apache-2.0",
       "url": "https://github.com/libxposed/service"
-    },
-    {
-      "name": "Xposed",
-      "author": "rovo89",
-      "license": "GPL-3.0",
-      "url": "https://github.com/rovo89/Xposed"
     },
     {
       "name": "Kotlin",
@@ -147,7 +141,7 @@
     },
     {
       "name": "MaterialKolor",
-      "author": "T8rin",
+      "author": "jordond",
       "license": "Apache-2.0",
       "url": "https://github.com/jordond/MaterialKolor"
     },
@@ -170,6 +164,12 @@
       "url": "https://github.com/NanoHttpd/nanohttpd"
     },
     {
+      "name": "Protocol Buffers",
+      "author": "Google",
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/protocolbuffers/protobuf"
+    },
+    {
       "name": "Lombok",
       "author": "Project Lombok",
       "license": "MIT",
@@ -186,12 +186,29 @@
       "author": "Mike Penz",
       "license": "Apache-2.0",
       "url": "https://github.com/mikepenz/multiplatform-markdown-renderer"
+    }
+  ],
+  "references": [
+    {
+      "name": "InstallerX-Revived",
+      "author": "wxxsfxyzm",
+      "license": "GPL-3.0",
+      "url": "https://github.com/wxxsfxyzm/InstallerX-Revived",
+      "note": "UI 视觉与交互参考；相关代码已重写为 Sen 原创实现，未分发其代码"
     },
     {
-      "name": "Protocol Buffers",
-      "author": "Google",
-      "license": "BSD-3-Clause",
-      "url": "https://github.com/protocolbuffers/protobuf"
+      "name": "LSPosed",
+      "author": "LSPosed",
+      "license": "GPL-3.0",
+      "url": "https://github.com/LSPosed/LSPosed",
+      "note": "运行宿主框架；仅运行时交互，未分发其代码"
+    },
+    {
+      "name": "Xposed",
+      "author": "rovo89",
+      "license": "GPL-3.0",
+      "url": "https://github.com/rovo89/XposedBridge",
+      "note": "传统 Xposed API 宿主；API 以 compileOnly 引用、不随 APK 分发"
     }
   ]
 }

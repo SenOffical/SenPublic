@@ -120,4 +120,33 @@ Sen 是运行在支付宝内的一款自动化辅助模块，帮助用户自动�
 
 ---
 
+## 开源致谢与许可声明
+
+Sen 的「关于」页会从本仓库的 [`sen_about.json`](./sen_about.json) 在线加载这份名单。核心 Hook 逻辑为闭源，但所有随 APK 分发的第三方组件均按下列协议致谢。
+
+### 随 APK 分发的开源库（Apache-2.0 为主）
+
+- **Apache-2.0**：Miuix、miuix-blur / miuix-nav（compose-miuix-ui）、Shizuku、HiddenApiBypass、Coil、OkHttp、libxposed API / Service、Kotlin 全家桶、AndroidX、Material Components、MaterialKolor、Jackson、Multiplatform Markdown Renderer
+- **Apache-2.0（液态玻璃组件）**：`liquid/` 包取自 compose-miuix-ui，其内容改编自 [Kyant0/AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass)，文件头保留完整归属
+- **LGPL-3.0**：[Rosemoe sora-editor](https://github.com/Rosemoe/sora-editor) — 以未修改的官方依赖形式使用，自研代码不受传染；库源码见上游对应版本
+- **EPL-1.0（选用）/ LGPL-2.1 双许可**：[logback-android](https://github.com/tony19/logback-android) — Sen 选择 EPL-1.0 一侧履行义务
+- **BSD-3-Clause**：NanoHTTPD、Protocol Buffers；**MIT**：Lombok、SLF4J
+
+### 设计参考（未包含其代码）
+
+以下 GPL-3.0 项目仅作为视觉/交互参考或运行宿主，**不含、也不再包含**其任何源码：
+
+| 项目 | 用途 |
+|------|------|
+| [InstallerX-Revived](https://github.com/wxxsfxyzm/InstallerX-Revived) | UI 视觉与交互参考；相关 UI 代码已于 2026-08 全部重写为 Sen 原创实现 |
+| [LSPosed](https://github.com/LSPosed/LSPosed) | 模块运行宿主框架，仅运行时交互 |
+| [rovo89/Xposed](https://github.com/rovo89/XposedBridge) | 传统 Xposed API 宿主；API 以 `compileOnly` 引用，不随 APK 分发 |
+
+### 许可说明
+
+- Sen 本体（含核心 Hook 逻辑）闭源分发，不适用上述库的传染性条款：Apache-2.0 / BSD / MIT 仅要求保留版权声明；LGPL-3.0 以未修改依赖形式使用；logback-android 按 EPL-1.0 履行。
+- 自 2026-08 起，Sen 已清除全部源自 GPL 项目的代码，此前从 InstallerX-Revived / KernelSU 移植的 UI 部分均以 miuix-nav、materialkolor 等 Apache-2.0 组件为地基原创重写。
+
+---
+
 ## 仍然保持免费，倒卖司马，如果程序被逆向，我们随时停止更新
