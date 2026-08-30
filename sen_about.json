@@ -1,66 +1,197 @@
 {
   "version": 1,
   "contributors": [
-    { "name": "nighttimecafe", "github": "nighttimecafe" },
-    { "name": "two2025", "github": "two2025" },
-    { "name": "Vjjvj", "github": "Vjjvj" },
-    { "name": "brokestar233", "github": "brokestar233" },
-    { "name": "teakone", "github": "teakone" },
-    { "name": "Roymod", "github": "Roymod" },
-    { "name": "Fansirsqi", "github": "Fansirsqi" },
-    { "name": "ghost-xx", "github": "ghost-xx" },
-    { "name": "Unicorn254","github": "Unicorn254" },
-    { "name": "acooler15", "gtihub": "acooler15" }
+    {
+      "name": "nighttimecafe",
+      "github": "nighttimecafe"
+    },
+    {
+      "name": "two2025",
+      "github": "two2025"
+    },
+    {
+      "name": "Vjjvj",
+      "github": "Vjjvj"
+    },
+    {
+      "name": "brokestar233",
+      "github": "brokestar233"
+    },
+    {
+      "name": "teakone",
+      "github": "teakone"
+    },
+    {
+      "name": "Roymod",
+      "github": "Roymod"
+    },
+    {
+      "name": "Fansirsqi",
+      "github": "Fansirsqi"
+    },
+    {
+      "name": "ghost-xx",
+      "github": "ghost-xx"
+    },
+    {
+      "name": "Unicorn254",
+      "github": "Unicorn254"
+    },
+    {
+      "name": "acooler15",
+      "gtihub": "acooler15"
+    }
   ],
   "libraries": [
-    { "name": "Miuix", "author": "Yukonga", "license": "Apache-2.0", "url": "https://github.com/Yukonga/Miuix" },
-
-    { "name": "Shizuku", "author": "RikkaApps", "license": "Apache-2.0", "url": "https://github.com/RikkaApps/Shizuku" },
-
-    { "name": "HiddenApiBypass", "author": "LSPosed", "license": "Apache-2.0", "url": "https://github.com/LSPosed/AndroidHiddenApiBypass" },
-
-    { "name": "Coil", "author": "Coil Contributors", "license": "Apache-2.0", "url": "https://github.com/coil-kt/coil3" },
-
-    { "name": "OkHttp", "author": "Square", "license": "Apache-2.0", "url": "https://github.com/square/okhttp" },
-
-    { "name": "Logback Android", "author": "Tony19", "license": "LGPL-2.1 / EPL-1.0", "url": "https://github.com/tony19/logback-android" },
-
-    { "name": "InstallerX-Revived", "author": "wxxsfxyzm", "license": "GPL-3.0", "url": "https://github.com/wxxsfxyzm/InstallerX-Revived" },
-
-    { "name": "LSPosed", "author": "LSPosed", "license": "GPL-3.0", "url": "https://github.com/LSPosed/LSPosed" },
-
-    { "name": "libxposed API", "author": "libxposed", "license": "Apache-2.0", "url": "https://github.com/libxposed/api" },
-
-    { "name": "libxposed Service", "author": "libxposed", "license": "Apache-2.0", "url": "https://github.com/libxposed/service" },
-
-    { "name": "Xposed", "author": "rovo89", "license": "GPL-3.0", "url": "https://github.com/rovo89/Xposed" },
-
-    { "name": "Kotlin", "author": "JetBrains", "license": "Apache-2.0", "url": "https://github.com/JetBrains/kotlin" },
-
-    { "name": "Kotlin Coroutines", "author": "JetBrains", "license": "Apache-2.0", "url": "https://github.com/Kotlin/kotlinx.coroutines" },
-
-    { "name": "Kotlin Serialization", "author": "Kotlin", "license": "Apache-2.0", "url": "https://github.com/Kotlin/kotlinx.serialization" },
-
-    { "name": "KSP", "author": "Google", "license": "Apache-2.0", "url": "https://github.com/google/ksp" },
-
-    { "name": "AndroidX", "author": "Google", "license": "Apache-2.0", "url": "https://github.com/androidx/androidx" },
-
-    { "name": "Material Components for Android", "author": "Google", "license": "Apache-2.0", "url": "https://github.com/material-components/material-components-android" },
-
-    { "name": "MaterialKolor", "author": "T8rin", "license": "Apache-2.0", "url": "https://github.com/jordond/MaterialKolor" },
-
-    { "name": "Rosemoe Editor", "author": "Rosemoe", "license": "LGPL-3.0", "url": "https://github.com/Rosemoe/sora-editor" },
-
-    { "name": "Jackson", "author": "FasterXML", "license": "Apache-2.0", "url": "https://github.com/FasterXML/jackson" },
-
-    { "name": "NanoHTTPD", "author": "NanoHTTPD Contributors", "license": "BSD-3-Clause", "url": "https://github.com/NanoHttpd/nanohttpd" },
-
-    { "name": "Lombok", "author": "Project Lombok", "license": "MIT", "url": "https://github.com/projectlombok/lombok" },
-
-    { "name": "SLF4J", "author": "SLF4J Contributors", "license": "MIT", "url": "https://github.com/qos-ch/slf4j" },
-
-    { "name": "Multiplatform Markdown Renderer", "author": "Mike Penz", "license": "Apache-2.0", "url": "https://github.com/mikepenz/multiplatform-markdown-renderer" },
-
-    { "name": "Protocol Buffers", "author": "Google", "license": "BSD-3-Clause", "url": "https://github.com/protocolbuffers/protobuf" }
+    {
+      "name": "Miuix",
+      "author": "Yukonga",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Yukonga/Miuix"
+    },
+    {
+      "name": "Shizuku",
+      "author": "RikkaApps",
+      "license": "Apache-2.0",
+      "url": "https://github.com/RikkaApps/Shizuku"
+    },
+    {
+      "name": "HiddenApiBypass",
+      "author": "LSPosed",
+      "license": "Apache-2.0",
+      "url": "https://github.com/LSPosed/AndroidHiddenApiBypass"
+    },
+    {
+      "name": "Coil",
+      "author": "Coil Contributors",
+      "license": "Apache-2.0",
+      "url": "https://github.com/coil-kt/coil3"
+    },
+    {
+      "name": "OkHttp",
+      "author": "Square",
+      "license": "Apache-2.0",
+      "url": "https://github.com/square/okhttp"
+    },
+    {
+      "name": "Logback Android",
+      "author": "Tony19",
+      "license": "LGPL-2.1 / EPL-1.0",
+      "url": "https://github.com/tony19/logback-android"
+    },
+    {
+      "name": "InstallerX-Revived",
+      "author": "wxxsfxyzm",
+      "license": "GPL-3.0",
+      "url": "https://github.com/wxxsfxyzm/InstallerX-Revived"
+    },
+    {
+      "name": "LSPosed",
+      "author": "LSPosed",
+      "license": "GPL-3.0",
+      "url": "https://github.com/LSPosed/LSPosed"
+    },
+    {
+      "name": "libxposed API",
+      "author": "libxposed",
+      "license": "Apache-2.0",
+      "url": "https://github.com/libxposed/api"
+    },
+    {
+      "name": "libxposed Service",
+      "author": "libxposed",
+      "license": "Apache-2.0",
+      "url": "https://github.com/libxposed/service"
+    },
+    {
+      "name": "Xposed",
+      "author": "rovo89",
+      "license": "GPL-3.0",
+      "url": "https://github.com/rovo89/Xposed"
+    },
+    {
+      "name": "Kotlin",
+      "author": "JetBrains",
+      "license": "Apache-2.0",
+      "url": "https://github.com/JetBrains/kotlin"
+    },
+    {
+      "name": "Kotlin Coroutines",
+      "author": "JetBrains",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Kotlin/kotlinx.coroutines"
+    },
+    {
+      "name": "Kotlin Serialization",
+      "author": "Kotlin",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Kotlin/kotlinx.serialization"
+    },
+    {
+      "name": "KSP",
+      "author": "Google",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/ksp"
+    },
+    {
+      "name": "AndroidX",
+      "author": "Google",
+      "license": "Apache-2.0",
+      "url": "https://github.com/androidx/androidx"
+    },
+    {
+      "name": "Material Components for Android",
+      "author": "Google",
+      "license": "Apache-2.0",
+      "url": "https://github.com/material-components/material-components-android"
+    },
+    {
+      "name": "MaterialKolor",
+      "author": "T8rin",
+      "license": "Apache-2.0",
+      "url": "https://github.com/jordond/MaterialKolor"
+    },
+    {
+      "name": "Rosemoe Editor",
+      "author": "Rosemoe",
+      "license": "LGPL-3.0",
+      "url": "https://github.com/Rosemoe/sora-editor"
+    },
+    {
+      "name": "Jackson",
+      "author": "FasterXML",
+      "license": "Apache-2.0",
+      "url": "https://github.com/FasterXML/jackson"
+    },
+    {
+      "name": "NanoHTTPD",
+      "author": "NanoHTTPD Contributors",
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/NanoHttpd/nanohttpd"
+    },
+    {
+      "name": "Lombok",
+      "author": "Project Lombok",
+      "license": "MIT",
+      "url": "https://github.com/projectlombok/lombok"
+    },
+    {
+      "name": "SLF4J",
+      "author": "SLF4J Contributors",
+      "license": "MIT",
+      "url": "https://github.com/qos-ch/slf4j"
+    },
+    {
+      "name": "Multiplatform Markdown Renderer",
+      "author": "Mike Penz",
+      "license": "Apache-2.0",
+      "url": "https://github.com/mikepenz/multiplatform-markdown-renderer"
+    },
+    {
+      "name": "Protocol Buffers",
+      "author": "Google",
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/protocolbuffers/protobuf"
+    }
   ]
 }
